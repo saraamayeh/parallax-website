@@ -26,6 +26,7 @@ header{
     width: 100%;
     position: absolute;
     padding: 30px 100px;
+    z-index: 1000;
 
 }
 
@@ -63,4 +64,42 @@ header li a.active{
     background-color: #fff;
     border-radius: 15px;
 
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+section img{
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section img.moon{
+    mix-blend-mode: screen;
+}
+
+section img.mountains_front{
+    z-index: 10;
+}
+
+#text{
+    color: #fff;
+    position: absolute;
+    font-size: 5vw;
+    font-weight: 700;
+    white-space:nowrap;
+    z-index: 9;
 }
