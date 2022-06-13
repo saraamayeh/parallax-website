@@ -28,3 +28,39 @@ header{
     padding: 30px 100px;
 
 }
+
+header .logo{
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 15px;
+}
+
+header li a:hover,
+header li a.active{
+    color: #2b1055;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
