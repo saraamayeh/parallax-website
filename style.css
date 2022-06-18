@@ -81,6 +81,11 @@ section{
    
 }
 
+.logoIm{
+    width: 130px;
+    height: 80px;
+}
+
 section::before{
  content: "";
  position: absolute;
